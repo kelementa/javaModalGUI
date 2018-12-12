@@ -24,7 +24,7 @@ public class JavaModalGUI extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("mainWin.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.setTitle("V1");
+        stage.setTitle("V2");
         stage.show();
     }
 
