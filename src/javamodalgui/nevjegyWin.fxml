@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javamodalgui.NevjegyWinCtrl">
+   <children>
+      <Button fx:id="btnMenuNevjegy" layoutX="122.0" layoutY="202.0" mnemonicParsing="false" onAction="#btnMenuNevjegyOnclick" text="Bezár" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="74.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kelement.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
